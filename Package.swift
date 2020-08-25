@@ -20,7 +20,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "FSCalendarPackage",
-            dependencies: [], path: "../FSCalendar"),
+            dependencies: [], path: "FSCalendar"),
         .testTarget(
             name: "FSCalendarPackageTests",
             dependencies: ["FSCalendarPackage"]),
